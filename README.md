@@ -10,15 +10,12 @@
 ![virtualbox_install_success](https://user-images.githubusercontent.com/16412949/43075642-ee1277c4-8eb3-11e8-8468-e7dd6f89a519.jpg)
 
 ### 新建虚拟机
-  注意事项：
+  >注意事项：
     1. 新建系统要选择Ubuntu-64bit(版本号为16.04)
     2. 新建虚拟机请选择专家模式
-
     ![expert_mode](https://user-images.githubusercontent.com/16412949/43078120-1956fccc-8ebc-11e8-97ee-b634893f0435.jpg)
-
     3. 分配内存推荐为2G(2048M)
     4. 虚拟硬盘选择 **使用已有的虚拟硬盘文件**
-
   ![new_virtual_machine](https://user-images.githubusercontent.com/16412949/43075975-25046d90-8eb5-11e8-8687-c588d2396d21.jpg)
 
 ### 启动虚拟机
@@ -31,11 +28,12 @@
   ```
   systemctl start pouch
   ```
+
+  >注意事项：
+   需首先切换至root用户，否则会提示权限不足
+
   启动成功如下:
   ![start_pouch_service](https://user-images.githubusercontent.com/16412949/43077720-e7ad3796-8eba-11e8-978a-26be58989c80.PNG)
-
-  注意事项：
-  + 需首先切换至root用户，否则会提示权限不足
 
 ### 启动一个busybox基础容器
 
@@ -53,8 +51,8 @@
   pouch exec -it {ID} sh
   ```
 
-  注意事项：
-  + ID为上条命令输出的完整ID中的前六位,如
+  >注意事项：
+     ID为上条命令输出的完整ID中的前六位,如
 
   ```
   pouch exec -it 81d749 sj
