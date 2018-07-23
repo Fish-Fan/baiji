@@ -5,11 +5,11 @@
 2. 下载VDI
   下载地址：
 ### 安装VirtualBox
-1. 安装完之后如下（版本号为5.2.16）：
+安装完之后如下（版本号为5.2.16）：
 
 ![virtualbox_install_success](https://user-images.githubusercontent.com/16412949/43075642-ee1277c4-8eb3-11e8-8468-e7dd6f89a519.jpg)
 
-2. 新建虚拟机
+### 新建虚拟机
   注意事项：
     1. 新建系统要选择Ubuntu-64bit(版本号为16.04)
     2. 新建虚拟机请选择专家模式
@@ -21,12 +21,12 @@
 
   ![new_virtual_machine](https://user-images.githubusercontent.com/16412949/43075975-25046d90-8eb5-11e8-8687-c588d2396d21.jpg)
 
-3. 启动虚拟机
+### 启动虚拟机
   虚拟机成功启动之后，输入初始的用户名和密码
   用户名：pouch
   密码：123456
 
-4. 启动pouch服务(默认开机启动)
+### 启动pouch服务(默认开机启动)
 
   ```
   systemctl start pouch
@@ -37,7 +37,7 @@
   启动成功如下:
   ![start_pouch_service](https://user-images.githubusercontent.com/16412949/43077720-e7ad3796-8eba-11e8-978a-26be58989c80.PNG)
 
-5. 启动一个busybox基础容器
+### 启动一个busybox基础容器
 
   ```
   pouch run -t -d busybox sh
@@ -47,7 +47,7 @@
 
   ![new_busybox_container](https://user-images.githubusercontent.com/16412949/43078533-539592b2-8ebd-11e8-8254-66aa56f12775.PNG)
 
-6. 登入启动容器
+### 登入启动容器
 
   ```
   pouch exec -it {ID} sh
