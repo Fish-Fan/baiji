@@ -32,6 +32,7 @@
    需首先切换至root用户，否则会提示权限不足
 
   启动成功如下:
+  
   ![start_pouch_service](https://user-images.githubusercontent.com/16412949/43077720-e7ad3796-8eba-11e8-978a-26be58989c80.PNG)
 
 ### 启动一个busybox基础容器
