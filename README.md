@@ -18,7 +18,7 @@
 3. 分配内存推荐为2G(2048M)
 4. 虚拟硬盘选择 **使用已有的虚拟硬盘文件** </br>
 
-  ![new_virtual_machine](https://user-images.githubusercontent.com/16412949/43075975-25046d90-8eb5-11e8-8687-c588d2396d21.jpg)
+    ![new_virtual_machine](https://user-images.githubusercontent.com/16412949/43075975-25046d90-8eb5-11e8-8687-c588d2396d21.jpg)
 
 ### 启动虚拟机
   虚拟机成功启动之后，输入初始的用户名和密码
