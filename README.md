@@ -11,11 +11,14 @@
 
 ### 新建虚拟机
 1. 新建系统要选择Ubuntu-64bit(版本号为16.04)
-2. 新建虚拟机请选择专家模式    
-![expert_mode](https://user-images.githubusercontent.com/16412949/43078120-1956fccc-8ebc-11e8-97ee-b634893f0435.jpg)
+2. 新建虚拟机请选择专家模式
+
+  ![expert_mode](https://user-images.githubusercontent.com/16412949/43078120-1956fccc-8ebc-11e8-97ee-b634893f0435.jpg)
+
 3. 分配内存推荐为2G(2048M)
 4. 虚拟硬盘选择 **使用已有的虚拟硬盘文件** </br>
-![new_virtual_machine](https://user-images.githubusercontent.com/16412949/43075975-25046d90-8eb5-11e8-8687-c588d2396d21.jpg)
+
+  ![new_virtual_machine](https://user-images.githubusercontent.com/16412949/43075975-25046d90-8eb5-11e8-8687-c588d2396d21.jpg)
 
 ### 启动虚拟机
   虚拟机成功启动之后，输入初始的用户名和密码
@@ -28,8 +31,8 @@
   systemctl start pouch
   ```
 
-  >注意事项：
-   需首先切换至root用户，否则会提示权限不足
+  注意事项：</br>
+  需首先切换至root用户，否则会提示权限不足
 
   启动成功如下:
 
@@ -51,7 +54,7 @@
   pouch exec -it {ID} sh
   ```
 
-  **注意事项**：
+  注意事项：</br>
   ID为上条命令输出的完整ID中的前六位,如
 
   ```
