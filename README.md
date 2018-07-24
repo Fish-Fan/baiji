@@ -1,15 +1,15 @@
 ## 基于VirtualBox + Ubuntu16.04 的 PouchContainer 体验环境搭建与上手
 ### 上手前准备
-1. VirtualBox
+1. VirtualBox </br>
   下载地址:https://www.virtualbox.org/
-2. 下载Ubuntu镜像
+2. 下载Ubuntu镜像 </br>
   下载地址：
 ### 安装VirtualBox
-安装完之后如下（版本号为5.2.16）：
+安装完之后如下（当前版本号为5.2.16）：
 
 ![virtualbox_install_success](https://user-images.githubusercontent.com/16412949/43075642-ee1277c4-8eb3-11e8-8468-e7dd6f89a519.jpg)
 
-### 新建虚拟机（windows和mac版本操作相同）
+### 新建虚拟机（Mac版本操作参照windows）
 1. 新建系统要选择Ubuntu-64bit(版本号为16.04)
 2. 新建虚拟机请选择专家模式
 
