@@ -76,8 +76,8 @@
 ### Install VirtualBox
   Installing the virtualbox,you can see the picture as follows (Current Version: 5.2.16)
 
-    ![install_virtualbox](https://user-images.githubusercontent.com/16412949/43111596-855eb2c6-8f24-11e8-9b80-a105f9b01dce.jpg)
-
+  ![install_virtualbox](https://user-images.githubusercontent.com/16412949/43111596-855eb2c6-8f24-11e8-9b80-a105f9b01dce.jpg)
+  
 ### Create New Virtual Machine In VirtualBox
   1. Select the Ubuntu-64bit
   2. Choose the expert Mode like this
