@@ -2,7 +2,6 @@
 ### Before Start
   1. Download VirtualBox: </br>
    Click here to download VirtualBox: :https://www.virtualbox.org/
-   
   2. Download Ubuntu mirror: </br>  
   Click here to download Ubuntu mirror:
   https://www.virtualbox.org/
