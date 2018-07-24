@@ -65,8 +65,8 @@
 
   至此，你已经建立了一个可交互容器的实例。
 
-  ##
-  ### Before Start
+##
+### Before Start
   1. Download VirtualBox: </br>
      Click here to download VirtualBox: :https://www.virtualbox.org/
   2. Download Ubuntu mirror: </br>  
@@ -76,7 +76,7 @@
 ### Install VirtualBox
 Installing the virtualbox,you can see the picture as follows (Current Version: 5.2.16)
 
-    ![create_virtual_machine](https://user-images.githubusercontent.com/16412949/43110939-36cdadcc-8f21-11e8-9885-b753198d88f4.jpg)
+![create_virtual_machine](https://user-images.githubusercontent.com/16412949/43110939-36cdadcc-8f21-11e8-9885-b753198d88f4.jpg)
 
 ### Create New Virtual Machine In VirtualBox
     1. Select the Ubuntu-64bit
