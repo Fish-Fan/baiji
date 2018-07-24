@@ -76,7 +76,7 @@
 ### Install VirtualBox
   Installing the virtualbox,you can see the picture as follows (Current Version: 5.2.16)
 
-    ![create_virtual_machine](https://user-images.githubusercontent.com/16412949/43110939-36cdadcc-8f21-11e8-9885-b753198d88f4.jpg)
+    ![install_virtualbox](https://user-images.githubusercontent.com/16412949/43111596-855eb2c6-8f24-11e8-9b80-a105f9b01dce.jpg)
 
 ### Create New Virtual Machine In VirtualBox
   1. Select the Ubuntu-64bit
@@ -87,7 +87,7 @@
   3. Allocation of memory is recommended as 2G(2048M)
   4. Use an existing virtual hard disk file
 
-        ![install_virtualbox](https://user-images.githubusercontent.com/16412949/43110952-484f870a-8f21-11e8-84c3-38a45957ee7b.jpg)
+        ![create_virtual_machine](https://user-images.githubusercontent.com/16412949/43111557-6c9c8056-8f24-11e8-83fa-86478ab1b8da.jpg)
 
 ### Run Virtual Machine
   When all thing start up, input the origin username and password
@@ -102,7 +102,7 @@
 
   Note: You need to switch to root user or you will get an permission deny error.
 
-  After successfully start the pouchContainer, you wil get the result like this
+  After successfully starting the pouchContainer, you wil get the result like this
 
   ![new_busybox_container](https://user-images.githubusercontent.com/16412949/43078533-539592b2-8ebd-11e8-8254-66aa56f12775.PNG)
 
