@@ -56,3 +56,6 @@
   ![login_pouch_container](https://user-images.githubusercontent.com/16412949/43078850-2ab70938-8ebe-11e8-8c39-bbf9121f7dfb.PNG)
 
   Finally, you have build an instance of interactive pouchContainer.
+
+### Feedback
+We hope this guide would help you get up and run with PouchContainer. And feel free to send feedback via ISSUE, if you have any questions. If you wish to contribute to PouchContainer on this guide, please just submit a pull request.
