@@ -2,14 +2,14 @@
 ### 上手前准备
 1. VirtualBox
   下载地址:https://www.virtualbox.org/
-2. 下载VDI
+2. 下载Ubuntu镜像
   下载地址：
 ### 安装VirtualBox
 安装完之后如下（版本号为5.2.16）：
 
 ![virtualbox_install_success](https://user-images.githubusercontent.com/16412949/43075642-ee1277c4-8eb3-11e8-8468-e7dd6f89a519.jpg)
 
-### 新建虚拟机
+### 新建虚拟机（windows和mac版本操作相同）
 1. 新建系统要选择Ubuntu-64bit(版本号为16.04)
 2. 新建虚拟机请选择专家模式
 
@@ -56,7 +56,7 @@
   注意事项：ID为上条命令输出的完整ID中的前六位,如
 
   ```
-  pouch exec -it 81d749 sj
+  pouch exec -it 81d749 sh
   ```
 
   执行成功如下:
